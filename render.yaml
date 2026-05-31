@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: vinted-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python vinted_bot.py
